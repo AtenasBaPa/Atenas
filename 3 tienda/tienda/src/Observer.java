@@ -1,4 +1,5 @@
-public interface Observer{
-    public void observador();
-    public void update();
+public interface Observer {
+
+    public void update(java.lang.String ModeloCelular);
+
 }
