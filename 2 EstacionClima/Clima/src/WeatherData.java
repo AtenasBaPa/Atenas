@@ -45,5 +45,6 @@ public class WeatherData implements Subject{
         // TODO Auto-generated method stub
         
     }
+
     
 }
