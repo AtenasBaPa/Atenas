@@ -10,7 +10,7 @@ public class Medium extends SizeCup {
     }
 
 
-    public double cost(int precio){
+    public double cost(){
         return (1.5) * beverage.cost();
     }
 
