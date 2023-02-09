@@ -9,6 +9,5 @@ public class App {
 	wd.setMeasurements(78f, 90f, 29.2f);
 
     }
-
     
 }
