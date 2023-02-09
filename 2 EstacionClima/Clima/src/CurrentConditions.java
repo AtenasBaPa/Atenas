@@ -10,7 +10,7 @@ public class CurrentConditions implements Observer{
     public CurrentConditions(Subject wd){
         this.wd = wd;
         weatherData.registerObserver (this);
-}
+    }
     
     public void update(float temp, float humidity, float pressure) {
         this.temperature= temp;
@@ -21,7 +21,7 @@ public class CurrentConditions implements Observer{
 
    
     public void display() {
-        System.out.println ("Current conditions: "+temperature + 
+        System.out.println ("Current conditions: "+ temperature + 
                          "F degrees," + humidity + "% humidity, and "+
                           pressure+ "pressure" );
     }

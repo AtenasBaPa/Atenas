@@ -3,10 +3,12 @@ public class App {
         WeatherData wd = new WeatherData();
         Observer cc = new CurrentConditions(wd);
         Observer sd = new StatisticsDisplay(wd);
+
+    wd.setMeasurements(80f, 65f, 30.4f);
+    wd.setMeasurements(82f, 70f, 29.2f);
+	wd.setMeasurements(78f, 90f, 29.2f);
+
     }
 
-    wd.setMeasurements(temperature: 80f, humidity: 65f, pressure: 30.4f);
-	wd.setMeasurements(temperature: 82f, humidity: 70f, pressure: 29.2f);
-	wd.setMeasurements(temperature: 78f, humidity: 90f, pressure: 29.2f);
-
+    
 }
