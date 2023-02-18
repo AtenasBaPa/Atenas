@@ -5,9 +5,9 @@ public class Main {
         
         
         Pizza pizza = nystore.orderPizza("cheese");
-        System.out.println("Orden de Abraham: " + pizza.getName() + "\n");
+        System.out.println("Orden de Atenas: " + pizza.getName() + "\n");
         
         pizza = chicagostore.orderPizza("pepperoni");
-		System.out.println("Orden de Jhoana: " + pizza.getName() + "\n");
+		System.out.println("Orden de Eduardo: " + pizza.getName() + "\n");
     }
 }
