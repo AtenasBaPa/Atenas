@@ -22,19 +22,19 @@ public class HouseRemote {
  
                     switch (opc) {
                         case 1:
-                            TurnLightsOnCommand();
+                            
                             System.out.println("The lights are on");
                             break;
                         case 2:
-                            TurnLightsOnCommand();
+
                             System.out.println("The lights are off");
                             break;
                         case 3:
-                            OpenDoorCommand();
+                            
                             System.out.println("The door is open");
                             break;
                         case 4:
-                            OpenDoorCommand();
+                            
                             System.out.println("The door is close");
                             break;
                         case 5:
