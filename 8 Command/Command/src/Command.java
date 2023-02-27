@@ -1,3 +1,5 @@
 public interface Command {
-    void execute();
+    public default void execute() {
+        
+    }
 }
