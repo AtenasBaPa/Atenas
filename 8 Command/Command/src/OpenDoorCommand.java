@@ -1,9 +1,9 @@
-public class OpenDoorCommand extends HouseRemote{
+public class OpenDoorCommand extends Command{
     public OpenDoorCommand(){
         
     }
     
     public void execute() {
-        System.out.println("La puerta se esta abriendo...");
+        System.out.println("The door is opening...");
     }
 }

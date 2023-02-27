@@ -1,10 +1,10 @@
-public class TurnLightsOffCommand extends HouseRemote{
+public class TurnLightsOffCommand extends Command{
     public TurnLightsOffCommand(){
        
     }
 
     public void execute() {
-        System.out.println("Las luces se estn apagando...");
+        System.out.println("Turning lights off......");
     }
     
 }

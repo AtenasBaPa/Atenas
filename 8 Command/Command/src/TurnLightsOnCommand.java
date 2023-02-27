@@ -1,9 +1,9 @@
-public class TurnLightsOnCommand extends HouseRemote{
+public class TurnLightsOnCommand extends Command{
     public TurnLightsOnCommand(){
     }
 
     public void execute() {
-        System.out.println("Las luces se estan encendiendo...");
+        System.out.println("Turning lights on......");
     }
     
 }

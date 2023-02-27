@@ -1,5 +1,3 @@
-public interface Command {
-    public default void execute() {
-        
-    }
+public abstract class Command {
+    public abstract void execute();
 }
