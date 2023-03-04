@@ -7,6 +7,7 @@ public class ObjetoSubasta implements Subject {
     private double precio;
     private boolean avaible;
     
+
      private List<Cliente> clientes = new ArrayList<Cliente>();
      
      public ObjetoSubasta(String nombre, double precio, boolean avaible) {
@@ -48,12 +49,10 @@ public class ObjetoSubasta implements Subject {
         return avaible;
     }
 
-    public void setDisponible(boolean avaible) {
+    public void setAvaible(boolean avaible) {
         this.avaible = avaible;
     }
 
-    public List<Cliente> getClientes() {
-        return clientes;
-    }
+    
      
 }

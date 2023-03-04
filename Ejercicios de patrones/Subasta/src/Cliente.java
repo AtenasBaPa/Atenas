@@ -1,6 +1,9 @@
 public class Cliente {
+
+    private String nombre;
     
     public Cliente(String nombre) {
+        this.nombre = nombre;
     }
     
     public void update(Subject subject) {
@@ -10,4 +13,13 @@ public class Cliente {
     public void offer(ObjetoSubasta ObjetoSubasta, double precio) {
         ObjetoSubasta.setPrecio(precio);
     }
+
+    public String getNCliente(){
+        return nombre;
+    }
+
+    public void setNCliente(){
+        this.nombre = nombre;
+    }
+
 }

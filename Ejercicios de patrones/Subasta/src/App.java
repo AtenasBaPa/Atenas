@@ -16,7 +16,7 @@ public class App {
          clienteLalo.offer(producto1, 18000); // Lalo ofrece 18000 después de que Atenas ofreciera 20000
  
          producto1.removeCliente(clienteLalo);
- 
-         System.out.println("Ganador de la subasta: " + clienteAtenas);
+
+         System.out.println("Ganador de la subasta: " + clienteAtenas.getNCliente());
      }
  }
